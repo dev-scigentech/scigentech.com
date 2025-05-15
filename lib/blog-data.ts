@@ -26,28 +26,47 @@ const authors = {
     avatar: "/female-scientist-portrait.png",
     bio: "Dr. Jane Smith leads SciGen's research initiatives with over 15 years of experience in computational biology and scientific software development. She holds a Ph.D. in Bioinformatics from Stanford University.",
   },
-  drDavidChen: {
-    name: "Dr. David Chen",
-    role: "Lead Software Architect",
-    avatar: "/placeholder.svg?key=qo6rc",
-    bio: "Dr. David Chen oversees the architecture of SciGen's software solutions. With a background in both computer science and molecular biology, he specializes in creating scalable systems for scientific applications.",
-  },
   drSarahJohnson: {
-    name: "Dr. Sarah Johnson",
-    role: "Medical Research Director",
+    name: "Dr. Marah Johnson",
+    role: "Marketing & Sales Director",
     avatar: "/placeholder.svg?key=aor9h",
     bio: "Dr. Sarah Johnson directs SciGen's medical research partnerships. Her expertise in clinical trials and medical imaging has helped shape our healthcare-focused software solutions.",
   },
-  profMichaelBrown: {
-    name: "Prof. Michael Brown",
-    role: "Academic Partnerships Lead",
-    avatar: "/male-professor-portrait.png",
-    bio: "Professor Michael Brown manages SciGen's academic collaborations. As a former department chair at MIT, he brings valuable insights into the needs of research institutions.",
+  katerinaPavlidi: {
+    name: "Katerina Pavlidi, MSt",
+    role: "Chief Scientific Officer",
+    avatar: "/blog/images/katerina.webp",
+    bio: "Sales/Marketing @ SciGen, College/Med school application advisor, Freelance editor",
   },
 }
 
 // Blog posts data
 export const blogPosts: BlogPost[] = [
+  {
+    title: "What's In Our (Conference) Bag",
+    slug: "whats-in-our-conference-bag",
+    excerpt:
+      "Here are a few must-bring items that we think everyone attending a scientific conference should carry",
+    content: [
+      "Over the years, our team has attended hundreds of scientific conferences worldwide. We’ve seen it all, from presenters sending us their poster just a few minutes before their talk, to synchronizing dozens of monitors in preparation for thousands of time-scheduled poster presentations over just a couple of days.",
+      "Here are a few must-bring items that we think everyone attending a scientific conference should carry:",
+      "1. USB stick with your poster(s) on it, If you missed the submission deadline or made some last-minute poster changes, it’s good to have a spare copy of your poster in your email or on a USB. Whether we’re supporting your conference onsite or online, we’ll do everything we can to make sure the most up-to-date version of your poster is what gets displayed.",
+      "2. Phone/laptop chargers. There’s nothing worse than being stuck without battery power when you need your devices for presenting and networking. Thankfully, most conference venues have plenty of spare outlets for use.",
+      "3. Business cards. Most people attend conferences to expand their network. Handing out your card to new acquaintances is a great way to help them remember you so you can stay connected after the conference. Be tactful with this, though, handing out your card to strangers can come off as disingenuous.",
+      "4. Band-aids. Papercuts and blisters are not unheard of at conferences. If we’re wearing new shoes, we always come prepared, as we’ll be standing and walking for long periods of time.",
+      "5. Hand sanitizer and mask. Especially for events in the winter months, maintaining good hygiene in crowded conference spaces is the best way to avoid spreading or contracting illness.",
+      "6. Water and a snack. Most venues have these available, but it’s good to carry something on you. With the packed schedule of most conferences, you may not have time to eat between presentations or sessions that you want to attend.",
+      "7. A scarf or light coat. The temperatures in conference halls are not that consistent, unfortunately. In most cases, we get super cold if we only wear our shirts.",
+      "8. Basic medications for pain relief. We always bring along an Advil travel pack. Even if you don’t end up needing it, someone around you might, and your preparedness will make you look brilliant!",
+    ],
+    coverImage: "/blog/images/bag.png",
+    date: "2024-11-19",
+    author: authors.katerinaPavlidi,
+    category: "Events",
+    tags: ["Events", "Tips", "Handy"],
+    readingTime: 6,
+  },
+ 
   {
     title: "Revolutionizing Medical Imaging Analysis with AI-Powered Software",
     slug: "revolutionizing-medical-imaging-analysis",
