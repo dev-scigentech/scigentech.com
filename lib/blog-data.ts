@@ -36,7 +36,7 @@ const authors = {
     name: "Katerina Pavlidi, MSt",
     role: "Chief Scientific Officer",
     avatar: "/blog/images/katerina.webp",
-    bio: "Sales/Marketing @ SciGen, College/Med school application advisor, Freelance editor",
+    bio: "Katerina works in Sales and Marketing at SciGen Technologies. She is also a college and medical school application advisor, as well as a freelance editor.",
   },
 }
 
