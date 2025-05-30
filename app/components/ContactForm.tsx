@@ -1,6 +1,6 @@
 "use client"
-
-import { useState } from "react"
+import axios from "axios"
+import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -9,6 +9,8 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import toast from "react-hot-toast"
+
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -31,16 +33,29 @@ export default function ContactForm() {
       message: "",
     },
   })
+  useEffect(() => {
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    setIsSubmitting(true)
-    // Simulate API call
-    setTimeout(() => {
-      console.log(values)
-      setIsSubmitting(false)
-      form.reset()
-      alert("Thank you for your message. We'll get back to you soon!")
-    }, 2000)
+  toast.success("This is a hot toast!")
+   
+  }, [])
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
+  
+    try {
+      
+      const data = await axios.post("/api/send-mail", values);
+      console.log("Response data:", data);
+      
+      toast.success("Message sent successfully! We will get back to you soon.")
+      console.log("Form data:", values);
+  
+      form.reset();
+    } catch (error) {
+      console.error("Error sending message:", error);
+  
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -126,11 +141,11 @@ export default function ContactForm() {
                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                       >
                         <option value="">Select a project type</option>
-                        <option value="conference">Conference Solution</option>
-                        <option value="research">Research Software</option>
-                        <option value="medical">Medical Application</option>
-                        <option value="custom">Custom Development</option>
-                        <option value="other">Other</option>
+                        <option value="Conference Solution">Conference Solution</option>
+                        <option value="Research Software">Research Software</option>
+                        <option value="Medical Application">Medical Application</option>
+                        <option value="Custom Development">Custom Development</option>
+                        <option value="Other">Other</option>
                       </select>
                     </FormControl>
                     <FormMessage />
