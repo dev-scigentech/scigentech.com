@@ -33,11 +33,6 @@ export default function ContactForm() {
       message: "",
     },
   })
-  useEffect(() => {
-
-  toast.success("This is a hot toast!")
-   
-  }, [])
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
   
