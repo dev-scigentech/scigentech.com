@@ -1,16 +1,30 @@
 import { NextResponse } from "next/server";
-import { SESClient, SendEmailCommand } from "@aws-sdk/client-ses";
+import AWS from 'aws-sdk';
 
 // Initialize SES client
-const sesClient = new SESClient({
-  region: process.env.AWS_REGION || "us-east-1", // Replace with your AWS region
-  credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID || '',
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || '',
-  },
-});
+// const sesClient = new SESClient({
+//   region: process.env.AWS_REGION || "us-east-1", // Replace with your AWS region
+//   credentials: {
+//     accessKeyId: process.env.AWS_ACCESS_KEY_ID || '',
+//     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || '',
+//   },
+// });
 
 export async function POST(request: Request) {
+
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    region: process.env.AWS_REGION,
+  });
+
+  const credentials = {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  };
+
+  const ses = new AWS.SES({ apiVersion: '2010-12-01', region: process.env.AWS_REGION, credentials: credentials });
+
   try {
     const data = await request.json();
     console.log("Received data:", data);
@@ -104,9 +118,9 @@ export async function POST(request: Request) {
     };
 
     // Send the email
-    const command = new SendEmailCommand(emailParams);
-    const response = await sesClient.send(command);
 
+    
+    const response = await ses.sendEmail(emailParams).promise();
     console.log("Email sent successfully:", response.MessageId);
 
     return NextResponse.json({
