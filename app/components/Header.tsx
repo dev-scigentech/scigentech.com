@@ -11,6 +11,7 @@ import { Menu, X } from "lucide-react"
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [currentHash, setCurrentHash] = useState("")
   const pathname = usePathname()
 
   // Track scroll position
@@ -25,6 +26,20 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [scrolled])
+
+  // Track hash changes
+  useEffect(() => {
+    const updateHash = () => {
+      setCurrentHash(window.location.hash)
+    }
+    
+    // Set initial hash
+    updateHash()
+    
+    // Listen for hash changes
+    window.addEventListener("hashchange", updateHash)
+    return () => window.removeEventListener("hashchange", updateHash)
+  }, [])
 
   // Close mobile menu when changing route
   useEffect(() => {
@@ -49,12 +64,32 @@ export default function Header() {
 
     const targetElement = document.getElementById(targetId)
     if (targetElement) {
+      // Update the URL hash first
+      window.history.pushState(null, "", href)
+      // Manually update the hash state since pushState doesn't trigger hashchange
+      setCurrentHash("#" + targetId)
+      
+      // Then scroll to the element
       window.scrollTo({
         top: targetElement.offsetTop - 80, // Offset for header height
         behavior: "smooth",
       })
       setMobileMenuOpen(false)
     }
+  }
+
+  // Function to check if a nav item is active
+  const isNavItemActive = (href: string) => {
+    if (href === "/blog") {
+      return pathname.startsWith("/blog")
+    }
+    
+    if (href.includes("#") && pathname === "/") {
+      // For hash links on homepage, check if current hash matches
+      return currentHash === href.replace("/", "")
+    }
+    
+    return pathname === href
   }
 
   // Scroll to top function
@@ -66,6 +101,11 @@ export default function Header() {
       window.location.href = "/"
       return
     }
+
+    // Update URL to remove hash
+    window.history.pushState(null, "", "/")
+    // Manually update the hash state since pushState doesn't trigger hashchange
+    setCurrentHash("")
 
     // Smooth scroll to top
     window.scrollTo({
@@ -110,11 +150,9 @@ export default function Header() {
                 href={item.href}
                 onClick={(e) => item.href.includes("#") && handleAnchorClick(e, item.href)}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
-                  (pathname === "/" && item.href.includes("#")) ||
-                  pathname === item.href ||
-                  (pathname.startsWith("/blog") && item.href === "/blog")
-                    ? "text-primary"
-                    : "text-foreground"
+                  isNavItemActive(item.href)
+                    ? "text-white"
+                    : "text-primary"
                 }`}
               >
                 {item.name}
@@ -154,11 +192,9 @@ export default function Header() {
                   href={item.href}
                   onClick={(e) => item.href.includes("#") && handleAnchorClick(e, item.href)}
                   className={`block py-3 text-base font-medium transition-colors hover:text-primary ${
-                    (pathname === "/" && item.href.includes("#")) ||
-                    pathname === item.href ||
-                    (pathname.startsWith("/blog") && item.href === "/blog")
-                      ? "text-primary"
-                      : "text-foreground"
+                    isNavItemActive(item.href)
+                      ? "text-white"
+                      : "text-primary"
                   }`}
                 >
                   {item.name}
