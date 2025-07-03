@@ -155,34 +155,113 @@ If you’re interested in trying InstaJudge, contact us at <u style="color:#1155
     tags: ['Products', 'InstaJudge', 'Rating'],
     readingTime: 5,
   },
-  // {
-  //   title: 'Enhancing Research Reproducibility Through Automated Workflows',
-  //   slug: 'enhancing-research-reproducibility',
-  //   excerpt:
-  //     'How automated scientific workflows are addressing the reproducibility crisis in research by standardizing methodologies and reducing human error.',
-  //   content: [
-  //     'The reproducibility crisis has emerged as one of the most significant challenges facing modern science. Across disciplines, researchers have found that a troubling percentage of published findings cannot be replicated by independent teams. This issue undermines scientific progress and erodes public trust in research. At SciGen, we believe that automated workflows represent a powerful tool for addressing this crisis.',
-  //     'Reproducibility failures stem from multiple sources, including selective reporting, p-hacking, and methodological opacity. However, a substantial portion also results from simple human error and inconsistent application of methods. These latter issues are particularly amenable to technological solutions.',
-  //     'Our approach to enhancing reproducibility begins with comprehensive workflow documentation. Every step in a research process—from data collection to statistical analysis—is explicitly defined in a machine-readable format. This serves as both executable code and as documentation, eliminating the discrepancies that often arise between methods sections in papers and actual analytical procedures.',
-  //     'Parameter management represents another critical component. Our systems track all variables and settings used in analyses, storing them alongside results. This prevents the common problem of researchers forgetting exactly which parameters were used to generate specific outputs, especially in iterative processes that may involve hundreds of experimental configurations.',
-  //     'Environmental consistency is maintained through containerization technologies. By packaging analyses with their exact computational environment, we ensure that code runs identically regardless of the underlying hardware or operating system. This eliminates the "it works on my machine" problem that frequently hampers reproduction attempts.',
-  //     'For data-intensive research, we implement automated data provenance tracking. This creates an unbroken chain of custody from raw data through all transformation and analysis steps to final results. When questions arise about findings, researchers can trace backward through this chain to identify exactly where discrepancies might have occurred.',
-  //     'Perhaps most importantly, our workflow systems are designed to integrate with existing research practices rather than forcing scientists to adopt entirely new methodologies. The best reproducibility tools are those that researchers will actually use, which means minimizing friction and maximizing immediate benefits beyond just reproducibility.',
-  //     'The impact of these approaches extends beyond just confirming existing findings. By standardizing workflows and reducing errors, researchers can build more confidently on previous work, accelerating the pace of discovery. Additionally, well-documented, reproducible research is more readily translated into practical applications, bridging the gap between laboratory findings and real-world impact.',
-  //   ],
-  //   coverImage: '/placeholder.svg?key=ulhuc',
-  //   date: '2023-08-05',
-  //   author: authors.drJaneSmith,
-  //   category: 'Research Methodology',
-  //   tags: [
-  //     'Reproducibility',
-  //     'Automation',
-  //     'Scientific Workflows',
-  //     'Research Methods',
-  //     'Data Science',
-  //   ],
-  //   readingTime: 8,
-  // },
+  {
+    title: 'ThrombUS+, a Horizon Europe Project',
+    slug: 'horizon-europe-project',
+    excerpt: `SciGen Technologies is a consortium partner in ThrombUS+, a Horizon Europe project tasked with creating a wearable device capable of the early detection of deep vein thrombosis. Learn more about our mission to transform DVT care at <a target="_blank" href="http://thrombus.eu">http://thrombus.eu</a>.`,
+    content: `<p style="margin-bottom: 0.8em;">SciGen Technologies is a proud partner in the <u style="color:#1155cc"><a target="_blank" href="https://thrombus.eu/">ThrombUS+ project</a></u>, a Horizon Europe-funded venture to create a diagnostic wearable device capable of detecting deep vein thrombosis (DVT).</p>
+
+<p style="margin-bottom: 0.8em;">
+ThrombUS+ kicked off on January 1, 2024, and will conclude on June 30, 2027. The project has 18 partners from Greece, Lithuania, France, Germany, the USA, Italy, Finland, and Spain.
+The Horizon Europe Innovation Action funds the venture with 9.5 M€.
+</p>
+
+<p style="margin-bottom: 0.8em;">
+<u>What is ThrombUS+?</u>
+</p>
+
+<p style="margin-bottom: 0.8em;">
+ThrombUS+ has an ambitious mission to develop an innovative wearable diagnostic device for point-of-care, operator-free, continuous monitoring of deep vein thrombosis. 
+</p>
+
+<p style="margin-bottom: 0.8em; place-self: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vSYu6Xk1FuA" title="ThrombUS+ Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p style="margin-bottom: 0.8em;">
+Deep vein thrombosis (DVT) poses a significant health risk, with potentially life-threatening consequences when left undetected.
+DVT involves the formation of blood clots in deep veins, primarily in the lower limbs, leading to blood flow obstruction.
+Shockingly, up to two-thirds of DVT cases exhibit no clinical symptoms, making early diagnosis challenging.
+ThrombUS+ steps in to bridge this gap, bringing together a diverse team of experts spanning industry, technology, regulation, social science, and clinical trials.
+</p>
+
+<p style="margin-bottom: 0.8em;">
+SciGen’s role in the project is to lead communication and dissemination activities, including the data challenge and engagement of stakeholders.
+</p>
+
+<p style="margin-bottom: 0.8em;">
+Communication activities include raising awareness and sharing project information to a wide range of stakeholders and audiences, from practitioners to laypeople.
+To accomplish the communication goals, SciGen has created a project <u style="color:#1155cc"><a target="_blank" href="https://thrombus.eu/">website</a></u>, <u style="color:#1155cc"><a target="_blank" href="https://www.youtube.com/watch?v=E1BCky4j_b0">educational video</a></u>,
+<u style="color:#1155cc"><a target="_blank" href="https://www.linkedin.com/company/thrombus-eu-project/">social media channels</a></u>, <u style="color:#1155cc"><a target="_blank" href="https://thrombus.s3.eu-west-1.amazonaws.com/facts-sheet/print+flyer.pdf">flyer</a></u>,
+and <u style="color:#1155cc"><a target="_blank" href="https://thrombus.us1.list-manage.com/subscribe?u=9a2b7c8eae90cb58d7b6a49c1&id=a2591c9ecf">newsletters</a></u>.
+</p>
+
+<p style="margin-bottom: 0.8em;">
+Dissemination activities begin after the conclusion of data collection. The first clinical trial has already begun enrollment and is nearing 500 participants. The results will be shared with specialized audiences such as researchers, clinicians and policymakers.
+The goal of disseminating the ThrombUS+ project results is to promote their use by relevant stakeholders and audiences and ensure a real-life application of the device for the benefit of patients.
+</p>
+
+<p style="margin-bottom: 0.8em;">
+<u>About SciGen</u>
+</p>
+
+<p style="margin-bottom: 0.8em;">
+SciGen is the company behind <u style="color:#1155cc"><a target="_blank" href="https://eposterslive.com/">ePostersLive</a></u>, <u style="color:#1155cc"><a target="_blank" href="https://instajudge.com/">InstaJudge</a></u>, PosterGenius, <u style="color:#1155cc"><a target="_blank" href="http://eposterscholar.com/">ePosterScholar</a></u>,
+and other products that have transformed modern scientific communication. SciGen’s journey began with a vision to harness technology to make scientific research more accessible, efficient and impactful.
+SciGen is also the inventor of the technology for electronic posters as a means of presentation at scientific conferences, which it introduced to the global market. This technology and the digital presentation of scientific (medical and academic) posters have become the most advanced and widespread method in the global scientific community.
+SciGen Technologies' innovative technologies were highlighted in an article by the highly reputable <i>Nature</i> in 2012.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.3em; margin-top: 1.2em; width: 50%; place-self: center;">
+<img alt="latest-consortium-meeting" src="/blog/images/latest-consortium-meeting.jpg" />
+</p>
+<p style="margin-bottom: 1.2em; font-size: 14px ; place-self:center;">
+Prototype shared at the latest consortium meeting
+</p>
+
+<p style="margin-bottom: 0.8em;">
+Consortium Partners:
+</p>
+
+<p style="margin-bottom: 0.8em;">
+<ol style="margin-left: 2rem; margin-bottom: 0.8em;">
+  <li>1) <u style="color:#1155cc"><a target="_blank" href="https://www.athenarc.gr/en/home">Athena Research Center</a></u>, Greece</li>
+  <li>2) <u style="color:#1155cc"><a target="_blank" href="https://en.ktu.edu/">Kaunas University of Technology</a></u>, Lithuania</li>
+  <li>3) <u style="color:#1155cc"><a target="_blank" href="https://vermon.com/">Vermon SA Center</a></u>, France</li>
+  <li>4) <u style="color:#1155cc"><a target="_blank" href="https://www.ipms.fraunhofer.de/en.html">Fraunhofer IPMS</a></u>, Germany</li>
+  <li>5) <u style="color:#1155cc"><a target="_blank" href="https://www.pcultrasound.com/">Telemed Ultrasound Medical Systems</a></u>, Lithuania</li>
+  <li>6) <u style="color:#1155cc"><a target="_blank" href="https://echonous.com/">EchoNous</a></u>, USA</li>
+  <li>7) <u style="color:#1155cc"><a target="_blank" href="https://www.medis.company/en/">medis Medizinische Messtechnik GmbH</a></u>, Germany</li>
+  <li>8) <u style="color:#1155cc"><a target="_blank" href="https://comftech.com/en/">ComfTech srl</a></u>, Italy</li>
+  <li>9) <u style="color:#1155cc"><a target="_blank" href="https://www.tuni.fi/en">Tampere University</a></u>, Finland</li>
+  <li>10) <u style="color:#1155cc"><a target="_blank" href="https://lsmu.lt/en/">Lietuvos sveikatos mokslų universitetas (LSMU)</a></u>, Lithuania</li>
+  <li>11) <u style="color:#1155cc"><a target="_blank" href="https://www.papageorgiou-hospital.gr/?lang=en">Papageorgiou General Hospital</a></u>, Greece</li>
+  <li>12) <u style="color:#1155cc"><a target="_blank" href="https://operapadrepio.it/it/">Fondazione Casa Sollievo della Sofferenza</a></u>, Italy</li>
+  <li>13) <u style="color:#1155cc"><a target="_blank" href="https://www.hopital-simoneveil.fr/">Hôpital Simone Veil - Groupement hospitalier Eaubonne-Montmorency</a></u>, France</li>
+  <li>14) <u style="color:#1155cc"><a target="_blank" href="https://www.vde.com/en">VDE</a></u>, Germany</li>
+  <li>15) <u style="color:#1155cc"><a target="_blank" href="https://www.medeaproject.eu/?lang=en">Medea Project</a></u>, Italy</li>
+  <li>16) <u style="color:#1155cc"><a target="_blank" href="https://www.phazeclinical.com/">Phaze Clinical Research & Pharma Consulting S.A.</a></u>, Greece</li>
+  <li>17) <u style="color:#1155cc"><a target="_blank" href="https://www.predictby.com/">PredictBy</a></u>, Spain</li>
+  <li>18) <u style="color:#1155cc"><a target="_blank" href="https://www.scigentech.com/">SciGen Technologies, SA.</a></u>, Greece</li>
+</ol>
+</p>
+
+<p style="margin-bottom: 0.8em;">
+Be sure to <u style="color:#1155cc"><a target="_blank" href="https://www.linkedin.com/company/thrombus-eu-project/">connect with ThrombUS+ on LinkedIn</a></u>
+and via the <u style="color:#1155cc"><a target="_blank" href="https://thrombus.us1.list-manage.com/subscribe?u=9a2b7c8eae90cb58d7b6a49c1&id=a2591c9ecf">newsletter</a></u> to stay up-to-date with news and the latest updates.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 2.5em; margin-top: 2.5em; width: 100%; place-items: center;">
+<img alt="thrombus-banner" src="/blog/images/thrombus-banner.png" />
+</p>
+    `,
+    coverImage: '/blog/images/image.jpg',
+    date: '2025-07-03',
+    author: authors.katerinaPavlidi,
+    category: 'Projects',
+    tags: ['Projects', 'Events', 'News', 'Horizon Europe'],
+    readingTime: 7,
+  },
 ];
 
 // Extract unique categories for filtering
