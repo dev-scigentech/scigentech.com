@@ -32,6 +32,12 @@ const authors = {
     avatar: '/blog/images/katerina.webp',
     bio: 'Katerina works in Sales and Marketing at SciGen Technologies. She is also a college and medical school application advisor, as well as a freelance editor.',
   },
+  georgeChaitidis: {
+    name: 'George Chaitidis',
+    role: 'Chief Operating Officer',
+    avatar: '/blog/images/george-chaitidis.png',
+    bio: `George Chaitides is the COO of ePosterslive and led the technical and operational planning for RCOG's 2025 World Congress implementation. He specializes in large-scale conference solutions and custom judging systems.`,
+  },
 };
 
 // Blog posts data
@@ -261,6 +267,137 @@ and via the <u style="color:#1155cc"><a target="_blank" href="https://thrombus.u
     category: 'Projects',
     tags: ['Projects', 'Events', 'News', 'Horizon Europe'],
     readingTime: 7,
+  },
+  {
+    title: '2,260 Posters, One Weekend, Zero Compromises',
+    slug: 'how-eposterslive-delievered-30-screen-digital-poster-installation-with-dual-judging-systems',
+    excerpt: `How ePostersLive delivered a 30-screen digital poster installation with dual judging systems for RCOG's 2025 World Congress—managing 2,260 posters from 8,802 authors with real-time infrastructure optimization.`,
+    content: `<p style="line-height: 1.5; margin-bottom: 0.8em;">The Royal College of Obstetricians and Gynaecologists 2025 World Congress brought together 8,802 authors from 2,329 institutions, presenting 2,260 posters across 43 topics.</p>
+        
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+RCOG has partnered with ePostersLive since 2011, trusting us to deliver seamless digital poster experiences at their global events. For 2025, they needed a partner who could handle a project of this size and complexity. Having worked closely with us before, they knew we could deliver a reliable, scalable solution tailored to their exact needs.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold; font-size: larger;">
+Custom Systems at Scale
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+We built two separate <u style="color:#1155cc"><a target="_blank" href="http://instajudge.com">InstaJudge</a></u> systems - one for ePosters and one for Oral Presentations. Each system needed different judging criteria, different workflows, and different reporting structures.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+The physical setup was equally ambitious:
+</p>
+
+<li style="margin-left: 3rem;">2 mini theatres (one large screen each)</li>
+<li style="margin-left: 3rem;">1 main ePoster area with 28 screens plus 2 dedicated photo displays</li>
+<li style="margin-left: 3rem; margin-bottom: 0.8em;">Full on-site support team</li>
+
+<p style="justify-self: center; margin-bottom: 0.8em;">
+<img alt="rcog2025-pic1" src="/blog/images/rcog-case-study-1.png" />
+</p>
+
+<p style="justify-self: center; margin-bottom: 0.8em;">
+<img alt="rcog2025-pic2" src="/blog/images/rcog-case-study-2.png" />
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+We also implemented a pay-per-poster pricing model at £22 per submission. For an organization managing thousands of abstracts, predictable per-poster pricing eliminates budget uncertainty.
+</p>
+
+<p style="justify-self: center; margin-bottom: 0.8em;">
+<img alt="rcog2025-pic3" src="/blog/images/rcog-case-study-3.png" />
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold; font-size: larger;">
+What Actually Happened: Execution at Scale
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+Large-scale conferences require continuous optimization, and RCOG 2025 was no exception. Our team arrived prepared to monitor performance and adjust infrastructure in real-time as needed.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+On day one, we identified network issues affecting system responsiveness. Our technical team immediately implemented key optimizations and adjustments that transformed system performance for the remainder of the event. This insight helped us understand network traffic patterns and will inform our pre-event configuration for future installations.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+Throughout the event, we worked in close coordination with the venue's AV team. Their technical fluency and proactive approach, including pre-loading session content and managing transitions, proved invaluable during our Monday infrastructure changes.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold; font-size: larger;">
+What We Learned
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold;">
+1. Vendor partnerships are force multipliers
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em">
+The AV team became active collaborators and stepped up during critical moments to optimize performance. These kinds of partnerships are what take events from good to outstanding.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold;">
+2. Infrastructure optimization is ongoing
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; ">
+Performance tuning is work that happens for the entire duration of a conference. Having team members who can diagnose and adjust systems during live operation is essential when you're managing thousands of concurrent users, especially over multiple days.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold; font-size: larger;">
+The Outcome
+</p>
+
+<p style="justify-self: center; margin-bottom: 0.8em;">
+<img alt="rcog2025-pic4" src="/blog/images/rcog-case-study-4.png" />
+</p>
+
+<p style="justify-self: center; margin-bottom: 0.8em;">
+<img alt="rcog2025-pic5" src="/blog/images/rcog-case-study-5.png" />
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+Experienced conference organizers know that complexity is inevitable when you're managing thousands of presentations, custom requirements, and live audiences. The real differentiator is whether your vendors have the expertise and team structure to handle them without compromising the attendee experience.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+When you're managing 2,000+ presentations with custom judging systems, you need:
+</p>
+
+<p style="line-height: 1.5; margin-left: 2rem;">1. <strong>Infrastructure built for scale</strong> - systems that perform under real-world load</p>
+
+<p style="line-height: 1.5; margin-left: 2rem;">2. <strong>On-site teams with technical depth</strong> - people who can adjust and optimize in real-time</p>
+
+<p style="line-height: 1.5; margin-left: 2rem;">3. <strong>Strong vendor partnerships</strong> - collaborators who understand event goals, not just their contracted scope</p>
+
+<p style="line-height: 1.5; margin-left: 2rem; margin-bottom: 0.8em;">4. <strong>Proven experience</strong> - teams that have successfully delivered at this scale before</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+The RCOG entrusted us with one of their flagship annual events. The scale was substantial, the requirements were custom, and the execution required real-time problem-solving. The result was a successful event that demonstrated what's possible when you combine robust technology with experienced teams.</i>
+</p>
+
+<hr style="border: 1px solid grey; margin: 0.8rem 0;" />
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+<i>Want to discuss your upcoming conference's ePoster needs? <u style="color:#1155cc"><a target="_blank" href="https://eposterslive.com/contact">Contact our team</a></u> to see how we can customize a solution for your event.
+</p>
+
+
+    `,
+    coverImage: '/blog/images/image.jpg',
+    date: '2025-10-14',
+    author: authors.georgeChaitidis,
+    category: 'Case Studies',
+    tags: [
+      'RCOG 2025',
+      'Case study',
+      'Live judging',
+      'InstaJudge',
+      'ePostersLive',
+    ],
+    readingTime: 8,
   },
 ];
 
