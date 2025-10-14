@@ -36,7 +36,7 @@ const authors = {
     name: 'George Chaitidis',
     role: 'Chief Operating Officer',
     avatar: '/blog/images/george-chaitidis.png',
-    bio: `George Chaitides is the COO of ePosterslive and led the technical and operational planning for RCOG's 2025 World Congress implementation. He specializes in large-scale conference solutions and custom judging systems.`,
+    bio: `George Chaitides is the COO of SciGen Technologies and led the technical and operational planning for RCOG's 2025 World Congress implementation. He specializes in large-scale conference solutions and custom judging systems.`,
   },
 };
 
@@ -272,10 +272,18 @@ and via the <u style="color:#1155cc"><a target="_blank" href="https://thrombus.u
     title: '2,260 Posters, One Weekend, Zero Compromises',
     slug: 'how-eposterslive-delievered-30-screen-digital-poster-installation-with-dual-judging-systems',
     excerpt: `How ePostersLive delivered a 30-screen digital poster installation with dual judging systems for RCOG's 2025 World Congress—managing 2,260 posters from 8,802 authors with real-time infrastructure optimization.`,
-    content: `<p style="line-height: 1.5; margin-bottom: 0.8em;">The Royal College of Obstetricians and Gynaecologists 2025 World Congress brought together 8,802 authors from 2,329 institutions, presenting 2,260 posters across 43 topics.</p>
-        
+    content: `<p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold;">How we delivered a dual judging system and 30-screen installation for RCOG's 2025 World Congress</p>
+
+<p style="justify-self: center; margin-bottom: 0.8em;">
+<img alt="rcog2025-pic3" src="/blog/images/rcog-case-study-3.png" />
+</p>
+
 <p style="line-height: 1.5; margin-bottom: 0.8em;">
-RCOG has partnered with ePostersLive since 2011, trusting us to deliver seamless digital poster experiences at their global events. For 2025, they needed a partner who could handle a project of this size and complexity. Having worked closely with us before, they knew we could deliver a reliable, scalable solution tailored to their exact needs.
+The Royal College of Obstetricians and Gynaecologists 2025 World Congress took place at the ExCeL London this June, bringing together thousands of researchers who presented 2,260 posters over 3 days.
+</p>
+
+<p style="line-height: 1.5; margin-bottom: 0.8em;">
+RCOG has partnered with <u style="color:#1155cc"><a target="_blank" href="https://eposterslive.com/">ePostersLive</a></u> since 2011, trusting us to deliver seamless digital poster experiences at their global events. For 2025, they needed a partner who could handle a project of this size and complexity. Having worked closely with us before, they knew we could deliver a reliable, scalable solution tailored to their exact needs.
 </p>
 
 <p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold; font-size: larger;">
@@ -304,10 +312,6 @@ The physical setup was equally ambitious:
 
 <p style="line-height: 1.5; margin-bottom: 0.8em;">
 We also implemented a pay-per-poster pricing model at £22 per submission. For an organization managing thousands of abstracts, predictable per-poster pricing eliminates budget uncertainty.
-</p>
-
-<p style="justify-self: center; margin-bottom: 0.8em;">
-<img alt="rcog2025-pic3" src="/blog/images/rcog-case-study-3.png" />
 </p>
 
 <p style="line-height: 1.5; margin-bottom: 0.8em; font-weight: bold; font-size: larger;">
