@@ -261,7 +261,7 @@ and via the <u style="color:#1155cc"><a target="_blank" href="https://thrombus.u
 <img alt="thrombus-banner" src="/blog/images/thrombus-banner.png" />
 </p>
     `,
-    coverImage: '/blog/images/image.jpg',
+    coverImage: '/blog/images/thrombusBanner.jpg',
     date: '2025-07-03',
     author: authors.katerinaPavlidi,
     category: 'Projects',
@@ -386,7 +386,7 @@ The RCOG entrusted us with one of their flagship annual events. The scale was su
 
 
     `,
-    coverImage: '/blog/images/image.jpg',
+    coverImage: '/blog/images/rcog-case-study-3.png',
     date: '2025-10-14',
     author: authors.georgeChaitidis,
     category: 'Case Studies',
