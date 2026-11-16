@@ -22,5 +22,5 @@ export const ESPA_LOGO_EN: EspaLogo = {
 }
 
 export const ESPA_INFO_URL = "https://scigentech.gr/espa"
-export const ESPA_STRIP_TEXT = "SciGen Technologies projects are co-funded by the European Union through ESPA 2021-2027."
+export const ESPA_STRIP_TEXT = "EU co-funded projects"
 export const ESPA_STRIP_LINK_LABEL = "Learn more"
