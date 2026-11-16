@@ -96,6 +96,7 @@ export default function Footer() {
         <div className='mt-8 text-center text-sm text-muted-foreground'>
           <p>Venizelou 70, Xanthi, 67100, Greece</p>
           <p>Phone: +30 25410 63908 | Email: info@scigentech.com</p>
+          <p>SCΙGEN TECHNΟLΟGΙES Α.Ε. | Αριθμός Γ.Ε.ΜΗ: 12705046000</p>
         </div>
         <p className='mt-6 text-center text-sm leading-5 text-muted-foreground'>
           &copy; {new Date().getFullYear()} SciGen Technologies. All rights
