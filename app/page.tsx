@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import EspaStrip from "./components/EspaStrip"
 import WearYourStory from "./components/WearYourStory"
 import FeatureCarousel from "./components/FeatureCarousel"
 import PortfolioGrid from "./components/PortfolioGrid"
@@ -10,6 +11,7 @@ import NewsletterSubscribe from "./components/NewsletterSubscribe"
 export default function Home() {
   return (
     <>
+      <EspaStrip />
       <Hero />
       <WearYourStory />
       <div id="why">

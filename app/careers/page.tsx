@@ -1,8 +1,10 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Briefcase, MapPin, Clock, Mail } from "lucide-react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { ESPA_LOGO_EL } from "@/lib/espa"
 
 export default function CareersPage() {
   const [activeTab, setActiveTab] = useState<"active" | "archived">("active")
@@ -227,10 +229,20 @@ export default function CareersPage() {
           {/* EU funding disclaimer in Greek */}
           <div className="mt-12 pt-8 border-t">
             <p className="text-xs text-muted-foreground leading-relaxed">
-              Η εταιρεία SciGen Technologies IKE, στο πλαίσιο υλοποίησης της Πράξης που χρηματοδοτείται από τη Δράση
+              Η εταιρεία SciGen Technologies Α.Ε., στο πλαίσιο υλοποίησης της Πράξης που χρηματοδοτείται από τη Δράση
               «ΕΡΕΥΝΩ–ΚΑΙΝΟΤΟΜΩ» του Προγράμματος «Ανταγωνιστικότητα 2021–2027», με τη συγχρηματοδότηση της Ευρωπαϊκής
               Ένωσης, προτίθεται να συνεργαστεί με έκτακτο προσωπικό για την κάλυψη των αναγκών του έργου.
             </p>
+            {/* ESPA logos must sit on white, never transparent over a dark background */}
+            <div className="mt-6 inline-block max-w-full rounded-lg border bg-white p-3 sm:p-4">
+              <Image
+                src={ESPA_LOGO_EL.src}
+                alt={ESPA_LOGO_EL.alt}
+                width={ESPA_LOGO_EL.width}
+                height={ESPA_LOGO_EL.height}
+                className="block h-auto w-[700px] max-w-full"
+              />
+            </div>
           </div>
         </div>
       </section>
