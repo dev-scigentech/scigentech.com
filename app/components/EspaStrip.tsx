@@ -5,8 +5,8 @@ import { ESPA_INFO_URL, ESPA_LOGO_EN, ESPA_STRIP_LINK_LABEL, ESPA_STRIP_TEXT } f
 // - sits directly under the fixed header, above the hero, so it is visible without scrolling;
 // - on the dark background the logos keep a white box with white margin around them;
 // - the logo image is shown uncropped and at its native aspect ratio.
-// Logo sizing is width-driven to keep the native aspect ratio: 291px wide ≈ 34px tall (mobile),
-// 377px ≈ 44px (desktop); max-w-full only ever shrinks it proportionally.
+// Logo sizing is width-driven to keep the native aspect ratio (2440×285): 308px wide ≈ 36px tall (mobile),
+// 411px ≈ 48px (desktop); max-w-full only ever shrinks it proportionally.
 // The top padding reserves the fixed header's height (py-5 + h-10 logo = 5rem).
 const NEW_TAB_HINT = "(opens in a new tab)"
 
@@ -18,7 +18,7 @@ export default function EspaStrip() {
           href={ESPA_INFO_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="block shrink-0 rounded-lg bg-white px-4 py-2 transition-shadow hover:shadow-[0_0_0_3px_rgba(255,255,255,0.25)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300"
+          className="block shrink-0 rounded-lg bg-white px-[18px] py-[10px] transition-shadow hover:shadow-[0_0_0_3px_rgba(255,255,255,0.25)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300"
         >
           <Image
             src={ESPA_LOGO_EN.src}
@@ -26,7 +26,7 @@ export default function EspaStrip() {
             width={ESPA_LOGO_EN.width}
             height={ESPA_LOGO_EN.height}
             priority
-            className="block h-auto w-[291px] max-w-full md:w-[377px]"
+            className="block h-auto w-[308px] max-w-full md:w-[411px]"
           />
           <span className="sr-only">{NEW_TAB_HINT}</span>
         </a>
